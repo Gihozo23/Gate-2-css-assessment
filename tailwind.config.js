@@ -2,16 +2,17 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
+    fontFamily: {
+      Lato: ['Lato', 'sans-serif'],
+    },
     extend: {
-      fontFamily:{
-        lato: ['Lato']
-      },
-      colors:{
-        customGold: '#a18a4d',
-        myColor:"#333",
-      },
+      colors: {
+        gold: "#a18a4d",
+        blacktext: "#212529",
+        lightGray: "#D5D5D5",
+        grey: "#333"  
+      }
     },
   },
   plugins: [],
 }
-
