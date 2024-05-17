@@ -556,35 +556,32 @@ video {
   --tw-contain-style:  ;
 }
 
-.left-6{
-  left: 1.5rem;
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.bottom-14{
+  bottom: 3.5rem;
+}
+
+.left-20{
+  left: 5rem;
 }
 
 .m-4{
   margin: 1rem;
 }
 
-.m-3{
-  margin: 0.75rem;
+.ml-10{
+  margin-left: 2.5rem;
 }
 
-.m-12{
-  margin: 3rem;
-}
-
-.mx-3{
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mx-12{
-  margin-left: 3rem;
-  margin-right: 3rem;
-}
-
-.mx-4{
-  margin-left: 1rem;
-  margin-right: 1rem;
+.ml-20{
+  margin-left: 5rem;
 }
 
 .ml-3{
@@ -595,92 +592,40 @@ video {
   margin-left: 1.25rem;
 }
 
-.ml-20{
-  margin-left: 5rem;
-}
-
-.ml-10{
-  margin-left: 2.5rem;
-}
-
-.ml-12{
-  margin-left: 3rem;
-}
-
-.inline{
-  display: inline;
-}
-
 .flex{
   display: flex;
-}
-
-.h-9{
-  height: 2.25rem;
-}
-
-.h-\[24px\]{
-  height: 24px;
-}
-
-.h-\[34px\]{
-  height: 34px;
-}
-
-.h-\[44px\]{
-  height: 44px;
-}
-
-.h-\[40px\]{
-  height: 40px;
-}
-
-.h-\[38px\]{
-  height: 38px;
-}
-
-.h-8{
-  height: 2rem;
 }
 
 .h-10{
   height: 2.5rem;
 }
 
-.h-12{
-  height: 3rem;
-}
-
-.h-\[64px\]{
-  height: 64px;
-}
-
-.h-\[104px\]{
-  height: 104px;
-}
-
-.h-\[54px\]{
-  height: 54px;
-}
-
-.h-16{
-  height: 4rem;
-}
-
-.h-32{
-  height: 8rem;
-}
-
-.h-2{
-  height: 0.5rem;
-}
-
 .h-28{
   height: 7rem;
 }
 
-.max-h-10{
-  max-height: 2.5rem;
+.h-\[100vh\]{
+  height: 100vh;
+}
+
+.h-\[38px\]{
+  height: 38px;
+}
+
+.h-\[44px\]{
+  height: 44px;
+}
+
+.h-\[45\%\]{
+  height: 45%;
+}
+
+.w-\[100px\]{
+  width: 100px;
+}
+
+.w-\[40\%\]{
+  width: 40%;
 }
 
 .w-auto{
@@ -691,73 +636,40 @@ video {
   flex-direction: column;
 }
 
-.content-between{
-  align-content: space-between;
-}
-
 .items-center{
   align-items: center;
-}
-
-.items-baseline{
-  align-items: baseline;
 }
 
 .justify-center{
   justify-content: center;
 }
 
-.justify-between{
-  justify-content: space-between;
-}
-
 .justify-around{
   justify-content: space-around;
-}
-
-.justify-evenly{
-  justify-content: space-evenly;
-}
-
-.gap-5{
-  gap: 1.25rem;
-}
-
-.gap-4{
-  gap: 1rem;
-}
-
-.gap-3{
-  gap: 0.75rem;
-}
-
-.gap-10{
-  gap: 2.5rem;
-}
-
-.gap-24{
-  gap: 6rem;
 }
 
 .gap-32{
   gap: 8rem;
 }
 
-.border-\[20px\]{
-  border-width: 20px;
+.gap-4{
+  gap: 1rem;
+}
+
+.gap-5{
+  gap: 1.25rem;
+}
+
+.gap-7{
+  gap: 1.75rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .border-b{
   border-bottom-width: 1px;
-}
-
-.border-\[\]{
-  border-color: ;
-}
-
-.border-black{
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .border-b-black{
@@ -770,38 +682,9 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-gray-800{
+.bg-customGold{
   --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-.bg-gray-900{
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.bg-gray-600{
-  --tw-bg-opacity: 1;
-  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\]{
-  background-color: url;
-}
-
-.bg-gray-400{
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
-}
-
-.bg-gray-300{
-  --tw-bg-opacity: 1;
-  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
-}
-
-.bg-gray-200{
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  background-color: rgb(161 138 77 / var(--tw-bg-opacity));
 }
 
 .bg-stone-200{
@@ -809,45 +692,46 @@ video {
   background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\)\]{
-  background-image: url();
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(https\:\/\/www\.up\.pt\/portal\/media\/images\/estudantes-icbas-lab-2024\.format-jpeg\.jpg\)\]{
-  background-image: url(https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg);
+.bg-myColor{
+  --tw-bg-opacity: 1;
+  background-color: rgb(51 51 51 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-80{
+  --tw-bg-opacity: 0.8;
+}
+
+.bg-opacity-70{
+  --tw-bg-opacity: 0.7;
+}
+
+.bg-opacity-90{
+  --tw-bg-opacity: 0.9;
+}
+
+.bg-\[url\(\'https\:\/\/www\.up\.pt\/portal\/media\/images\/estudantes-icbas-lab-2024\.format-jpeg\.jpg\'\)\]{
+  background-image: url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.p-\[20px\]{
+  padding: 20px;
 }
 
 .font-lato{
   font-family: Lato;
-}
-
-.text-\[12\.5px\]{
-  font-size: 12.5px;
-}
-
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-7xl{
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-9xl{
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .text-2xl{
@@ -855,54 +739,29 @@ video {
   line-height: 2rem;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
-.text-\[34px\]{
-  font-size: 34px;
-}
-
-.text-\[30px\]{
-  font-size: 30px;
-}
-
-.text-\[20px\]{
-  font-size: 20px;
-}
-
-.text-\[24px\]{
-  font-size: 24px;
-}
-
-.text-\[22px\]{
-  font-size: 22px;
-}
-
-.text-\[19px\]{
-  font-size: 19px;
+.text-\[12\.5px\]{
+  font-size: 12.5px;
 }
 
 .text-\[16px\]{
   font-size: 16px;
 }
 
-.font-extrabold{
-  font-weight: 800;
-}
-
 .font-bold{
   font-weight: 700;
 }
 
+.font-extrabold{
+  font-weight: 800;
+}
+
 .uppercase{
   text-transform: uppercase;
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-gray-200{
@@ -910,9 +769,9 @@ video {
   color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
-.text-white{
+.text-gray-300{
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .text-gray-400{
@@ -920,13 +779,15 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.text-\[\]{
-  color: ;
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-black{
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+.shadow-md{
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:text-white:hover{
