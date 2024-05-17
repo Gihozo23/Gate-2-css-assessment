@@ -580,6 +580,14 @@ video {
   top: 0px;
 }
 
+.top-4{
+  top: 1rem;
+}
+
+.top-3{
+  top: 0.75rem;
+}
+
 .z-\[100\]{
   z-index: 100;
 }
@@ -651,6 +659,18 @@ video {
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .inline{
@@ -730,6 +750,18 @@ video {
   height: 120;
 }
 
+.h-\[140vh\]{
+  height: 140vh;
+}
+
+.h-\[160vh\]{
+  height: 160vh;
+}
+
+.h-\[155vh\]{
+  height: 155vh;
+}
+
 .w-\[100\%\]{
   width: 100%;
 }
@@ -772,6 +804,14 @@ video {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -798,6 +838,10 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
 }
 
 .gap-1{
@@ -834,6 +878,10 @@ video {
 
 .gap-\[12rem\]{
   gap: 12rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .space-y-9 > :not([hidden]) ~ :not([hidden]){
@@ -881,6 +929,11 @@ video {
 .border-b-zinc-400{
   --tw-border-opacity: 1;
   border-bottom-color: rgb(161 161 170 / var(--tw-border-opacity));
+}
+
+.border-b-zinc-500{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(113 113 122 / var(--tw-border-opacity));
 }
 
 .bg-customGold{
@@ -935,6 +988,18 @@ video {
   background-image: url('https://www.up.pt/portal/static/images/minerva_01.png');
 }
 
+.bg-\[url\(\)\]{
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\]{
+  background-image: url('');
+}
+
+.bg-\[url\(\'https\:\/\/www\.up\.pt\/portal\/static\/images\/img_minerva_footer\.png\'\)\]{
+  background-image: url('https://www.up.pt/portal/static/images/img_minerva_footer.png');
+}
+
 .bg-contain{
   background-size: contain;
 }
@@ -973,6 +1038,14 @@ video {
 
 .p-\[20px\]{
   padding: 20px;
+}
+
+.p-24{
+  padding: 6rem;
+}
+
+.p-12{
+  padding: 3rem;
 }
 
 .px-24{
@@ -1041,6 +1114,14 @@ video {
 
 .pb-2{
   padding-bottom: 0.5rem;
+}
+
+.pb-24{
+  padding-bottom: 6rem;
+}
+
+.pt-24{
+  padding-top: 6rem;
 }
 
 .font-lato{
@@ -1115,6 +1196,22 @@ video {
 
 .text-\[19px\]{
   font-size: 19px;
+}
+
+.text-\[14px\]{
+  font-size: 14px;
+}
+
+.text-\[21px\]{
+  font-size: 21px;
+}
+
+.text-\[17\.5px\]{
+  font-size: 17.5px;
+}
+
+.text-\[16\.7px\]{
+  font-size: 16.7px;
 }
 
 .font-\[300\]{
@@ -1205,6 +1302,11 @@ video {
 
 .text-\[xl\]{
   color: xl;
+}
+
+.text-zinc-100{
+  --tw-text-opacity: 1;
+  color: rgb(244 244 245 / var(--tw-text-opacity));
 }
 
 .underline{
