@@ -646,6 +646,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
 .block{
   display: block;
 }
@@ -914,6 +918,18 @@ video {
   background-image: url('https://www.up.pt/portal/media/images/ijup-2024_12.format-jpeg.jpg');
 }
 
+.bg-\[url\(\'\'\)\]{
+  background-image: url('');
+}
+
+.bg-\[url\(\'https\:\/\/www\.up\.pt\/portal\/media\/images\/estudantes-icbas-lab-2024\.format-jpeg\.jpg\'\)\]{
+  background-image: url('https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
 .bg-center{
   background-position: center;
 }
@@ -956,6 +972,19 @@ video {
 
 .py-4{
   padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pt-24{
+  padding-top: 6rem;
+}
+
+.pb-4{
   padding-bottom: 1rem;
 }
 
@@ -1129,6 +1158,11 @@ video {
 .hover\:text-gold:hover{
   --tw-text-opacity: 1;
   color: rgb(161 138 77 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:underline:hover{
