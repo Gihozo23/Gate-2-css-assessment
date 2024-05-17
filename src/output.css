@@ -556,28 +556,87 @@ video {
   --tw-contain-style:  ;
 }
 
-.m-8{
-  margin: 2rem;
-}
-
-.m-6{
-  margin: 1.5rem;
+.left-6{
+  left: 1.5rem;
 }
 
 .m-4{
   margin: 1rem;
 }
 
-.ml-4{
+.m-3{
+  margin: 0.75rem;
+}
+
+.m-12{
+  margin: 3rem;
+}
+
+.mx-3{
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.mx-12{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.mx-4{
   margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .ml-3{
   margin-left: 0.75rem;
 }
 
+.ml-5{
+  margin-left: 1.25rem;
+}
+
+.ml-20{
+  margin-left: 5rem;
+}
+
+.ml-10{
+  margin-left: 2.5rem;
+}
+
+.ml-12{
+  margin-left: 3rem;
+}
+
+.inline{
+  display: inline;
+}
+
 .flex{
   display: flex;
+}
+
+.h-9{
+  height: 2.25rem;
+}
+
+.h-\[24px\]{
+  height: 24px;
+}
+
+.h-\[34px\]{
+  height: 34px;
+}
+
+.h-\[44px\]{
+  height: 44px;
+}
+
+.h-\[40px\]{
+  height: 40px;
+}
+
+.h-\[38px\]{
+  height: 38px;
 }
 
 .h-8{
@@ -588,40 +647,122 @@ video {
   height: 2.5rem;
 }
 
-.h-9{
-  height: 2.25rem;
+.h-12{
+  height: 3rem;
+}
+
+.h-\[64px\]{
+  height: 64px;
+}
+
+.h-\[104px\]{
+  height: 104px;
+}
+
+.h-\[54px\]{
+  height: 54px;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.h-32{
+  height: 8rem;
+}
+
+.h-2{
+  height: 0.5rem;
+}
+
+.h-28{
+  height: 7rem;
+}
+
+.max-h-10{
+  max-height: 2.5rem;
+}
+
+.w-auto{
+  width: auto;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.content-between{
+  align-content: space-between;
 }
 
 .items-center{
   align-items: center;
 }
 
-.gap-8{
-  gap: 2rem;
+.items-baseline{
+  align-items: baseline;
 }
 
-.gap-3{
-  gap: 0.75rem;
+.justify-center{
+  justify-content: center;
 }
 
-.gap-6{
-  gap: 1.5rem;
+.justify-between{
+  justify-content: space-between;
+}
+
+.justify-around{
+  justify-content: space-around;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
 }
 
 .gap-5{
   gap: 1.25rem;
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+.gap-4{
+  gap: 1rem;
 }
 
-.space-x-10 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-x-reverse: 0;
-  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.gap-24{
+  gap: 6rem;
+}
+
+.gap-32{
+  gap: 8rem;
+}
+
+.border-\[20px\]{
+  border-width: 20px;
+}
+
+.border-b{
+  border-bottom-width: 1px;
+}
+
+.border-\[\]{
+  border-color: ;
+}
+
+.border-black{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.border-b-black{
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-black{
@@ -629,8 +770,79 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-gray-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-gray-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\]{
+  background-color: url;
+}
+
+.bg-gray-400{
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300{
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-gray-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-stone-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\)\]{
+  background-image: url();
+}
+
+.bg-\[url\(https\:\/\/www\.up\.pt\/portal\/media\/images\/estudantes-icbas-lab-2024\.format-jpeg\.jpg\)\]{
+  background-image: url(https://www.up.pt/portal/media/images/estudantes-icbas-lab-2024.format-jpeg.jpg);
+}
+
 .font-lato{
   font-family: Lato;
+}
+
+.text-\[12\.5px\]{
+  font-size: 12.5px;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-9xl{
+  font-size: 8rem;
+  line-height: 1;
 }
 
 .text-sm{
@@ -638,64 +850,59 @@ video {
   line-height: 1.25rem;
 }
 
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.text-\[10px\]{
-  font-size: 10px;
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[34px\]{
+  font-size: 34px;
 }
 
 .text-\[30px\]{
   font-size: 30px;
 }
 
-.text-\[0px\]{
-  font-size: 0px;
+.text-\[20px\]{
+  font-size: 20px;
 }
 
-.text-\[15px\]{
-  font-size: 15px;
+.text-\[24px\]{
+  font-size: 24px;
 }
 
-.text-\[12px\]{
-  font-size: 12px;
+.text-\[22px\]{
+  font-size: 22px;
 }
 
-.text-\[13px\]{
-  font-size: 13px;
+.text-\[19px\]{
+  font-size: 19px;
 }
 
-.text-\[12\.5px\]{
-  font-size: 12.5px;
-}
-
-.font-semibold{
-  font-weight: 600;
-}
-
-.font-bold{
-  font-weight: 700;
+.text-\[16px\]{
+  font-size: 16px;
 }
 
 .font-extrabold{
   font-weight: 800;
 }
 
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+.font-bold{
+  font-weight: 700;
 }
 
-.text-gray-300{
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
-.text-gray-100{
-  --tw-text-opacity: 1;
-  color: rgb(243 244 246 / var(--tw-text-opacity));
+.uppercase{
+  text-transform: uppercase;
 }
 
 .text-gray-200{
@@ -703,15 +910,26 @@ video {
   color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
-.text-\[gray-200\]{
-  color: gray-200;
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-400{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-\[\]{
   color: ;
 }
 
-.text-gray-400{
+.text-black{
   --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
